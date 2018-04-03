@@ -1,6 +1,6 @@
-let axios = require('axios');
-let cheerio = require('cheerio');
-let fs = require('fs');
+const axios = require('axios');
+const cheerio = require('cheerio');
+const fs = require('fs');
 
 axios.get('https://bukk.it/')
     .then((response) => {
